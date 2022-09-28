@@ -1,0 +1,27 @@
+.formSearch {
+  background: #FFFFFF;
+  border-radius: 16px;
+}
+
+.blockSelect {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 16px;
+}
+
+
+input[type="submit"]{
+  max-width: 207px;
+  width: 100%;
+  padding: 16px;
+  border-radius: 100px;
+  background: #1E82FA;
+  color:#FFFFFF;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 0 auto;
+}

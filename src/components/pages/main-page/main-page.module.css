@@ -1,0 +1,42 @@
+
+.headPage {
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headTitle {
+  max-width: 530px;
+}
+
+.sectionFormSearch {
+  min-height: 285px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.titleSearch {
+  min-height: 48px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0;
+}
+ 
+.titleSearch::before {
+  position: absolute;
+  content: "Главная";
+  top: 0;
+  left: 0;
+  font-family: inherit;
+  color: rgba(25, 25, 25, 0.5);
+}
+
+.countCards {
+  padding: 40px 0;
+}

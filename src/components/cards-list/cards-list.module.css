@@ -1,0 +1,54 @@
+.cardsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 19px;
+  color:#000000;
+  background-color: #FFFFFF;
+  max-width: 356px;
+  border-radius: 16px;
+}
+
+.figcaption {
+  min-height: 153px;
+  padding: 26px 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img{
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  height: 211px;
+  object-fit: cover;
+}
+
+.location {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #191919;
+  position: relative;
+  padding: 0 0 0 20px;
+  margin: 16px 0;
+}
+
+.location::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  background-image: url("/public/images/icon/marker.svg");
+  background-repeat: no-repeat;
+}
+
+.checkBox {
+  margin-top: auto;
+}

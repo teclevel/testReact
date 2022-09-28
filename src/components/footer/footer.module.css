@@ -1,0 +1,30 @@
+.listFooter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 60px 0 0 0; 
+  text-transform: uppercase;
+}
+
+.houseLogo {
+  height: 66px;
+  max-width: 468px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.houseLogo p {
+  margin: 0 0 0 20px;
+  font-family: 'Heuristica'; 
+}
+
+.contacts {
+  max-width: 314px;
+  width: 100%;
+}
+
+.address {
+  font-size: 14px;
+  margin: 10px 0 0 0;
+}
